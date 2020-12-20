@@ -24,3 +24,37 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+  //--ion-font-family: 'Nunito', Tahoma, sans-serif;
+  --pallete-primary: #E6B722;
+  --pallete-secondary: #FCA919;
+  --pallete-light: #E0F542;
+  --pallete-dark: #F5801B;
+
+  --primary: #5d5d5d;
+  --secondary: #a1a1a1;
+  --danger: #ff4e3c;
+  --light: #ebf5e1;
+  --supporting: #ee2871;
+  --input-background: #BEBEBE;
+  --default-button: #1aff1a;
+  --white: #ffffff;
+}
+
+.global-input {
+  background: var(--input-background);
+  height: 50px;
+  border-radius: 10px;
+  margin: 3vw 5vw;
+  display: flex;
+  align-items: center;
+  z-index: 20;
+
+  ion-input {
+    --padding-start: 3vw;
+    --padding-end: 3vw;
+    --placeholder-color: var(--white);
+    --color: var(--white);
+  }
+}

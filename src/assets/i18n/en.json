@@ -5,6 +5,12 @@
     "donate": "Donate"
   },
   "home": {
-    "name": "Name"
+    "name": "Name",
+    "wishes": "Wishes",
+    "launchFireworks": "Launch Fireworks!",
+    "firstNamePlaceholder": "Type your name here",
+    "wishesPlaceholder": "Type your juicy wishes here",
+    "send": "Send wishes"
+
   }
 }

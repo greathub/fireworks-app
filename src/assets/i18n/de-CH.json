@@ -1,10 +1,16 @@
 {
   "tabs": {
     "home": "Home",
-    "settings": "Settings",
-    "donate": "Donate"
+    "settings": "Einstellungen",
+    "donate": "Spenden"
   },
   "home": {
-    "name": "Name"
+    "name": "Name",
+    "wishes": "Wünscht",
+    "launchFireworks": "Feuerwerk starten!",
+    "firstNamePlaceholder": "Schreiben Sie Ihren Namen hierhin",
+    "wishesPlaceholder": "Geben Sie hier Ihre saftigen Wünsche ein",
+    "send": "Wünsche senden!"
+
   }
 }

@@ -1,10 +1,16 @@
 {
   "tabs": {
-    "home": "Home",
-    "settings": "Settings",
-    "donate": "Donate"
+    "home": "Pulpit",
+    "settings": "Ustawienia",
+    "donate": "Wesprzyj"
   },
   "home": {
-    "name": "Name"
+    "name": "Imię",
+    "wishes": "Życzenia",
+    "launchFireworks": "Wystrzel fajerwerki!",
+    "firstNamePlaceholder": "Wpisz swoje Imię",
+    "wishesPlaceholder": "Wpisz życzenia urodzinowe",
+    "send": "Wyślij życzenia!"
+
   }
 }

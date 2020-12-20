@@ -1,0 +1,51 @@
+ion-title {
+  color: var(--primary);
+}
+
+
+ion-content {
+
+  .name {
+      margin: 8vw 5vw 5vw 5vw;
+      font-size: 20px;
+      color: var(--primary);
+      font-weight: 600;
+  }
+
+  .expandable-input {
+    background: var(--input-background);
+    min-height: 50px;
+    border-radius: 10px;
+    margin: 3vw 5vw;
+    width: auto;
+    --color: var(--white);
+    --placeholder-color: var(--white);
+    --padding-top: 15px;
+    --padding-end: 3vw;
+    --padding-start: 3vw;
+  }
+
+  ion-button {
+    margin: 2vw 5vw;
+    color: var(--primary);
+    height: 50px;
+    width: 90%;
+    --background: var(--pallete-primary);
+  }
+
+  .wishes {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .emoji {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vw;
+
+    div {
+      zoom: 4
+    }
+  }
+}
+

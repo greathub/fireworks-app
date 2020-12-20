@@ -6,11 +6,43 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <form [formGroup]="fireworksForm">
+    <div class="name">{{ 'home.name' | translate }}</div>
+    <div class="global-input">
+      <ion-input
+              placeholder="{{ 'home.firstNamePlaceholder' | translate }}"
+              id="firstName"
+              type="text"
+              formControlName="firstName"
+      >
+      </ion-input>
+    </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div class="name">{{ 'home.wishes' | translate }}</div>
+  <div>
+    <div class="">
+    <ion-textarea
+            placeholder="{{ 'home.wishesPlaceholder' | translate }}"
+            id="wishes"
+            type="text"
+            class="expandable-input"
+            formControlName="firstName"
+            rows="1"
+            autoGrow="true"
+    >
+    </ion-textarea>
+    </div>
+    <ion-button>{{ 'home.send' | translate }}</ion-button>
+  </div>
+
+
+
+  <ion-button>{{ 'home.launchFireworks' | translate }}</ion-button>
+  <div class="emoji">
+    <div>😍</div>
+    <div>🤣</div>
+    <div>😫</div>
+    <div>🤶</div>
+  </div>
+  </form>
 </ion-content>
