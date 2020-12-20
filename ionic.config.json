@@ -1,0 +1,7 @@
+{
+  "name": "fireworks-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
