@@ -11,6 +11,8 @@
     "firstNamePlaceholder": "Wpisz swoje Imię",
     "wishesPlaceholder": "Wpisz życzenia urodzinowe",
     "send": "Wyślij życzenia!"
-
+  },
+  "settings": {
+    "setLanguage": "Ustaw język:"
   }
 }

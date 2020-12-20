@@ -12,6 +12,10 @@
       <ion-title size="large">Tab 2</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <div class="languages">
+    <p>{{ 'settings.setLanguage' | translate }}</p>
+    <div (click)="setLang('en')">🇬🇧</div>
+    <div (click)="setLang('pl')">🇵🇱</div>
+    <div (click)="setLang('de-CH')">🇩🇪</div>
+  </div>
 </ion-content>

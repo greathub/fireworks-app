@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-tab2',
@@ -7,6 +8,9 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  constructor( private translateService: TranslateService) {}
 
+  setLang(language: string): void {
+    this.translateService.setDefaultLang(language);
+  }
 }

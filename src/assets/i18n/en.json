@@ -11,6 +11,8 @@
     "firstNamePlaceholder": "Type your name here",
     "wishesPlaceholder": "Type your juicy wishes here",
     "send": "Send wishes"
-
+  },
+  "settings": {
+    "setLanguage": "Set language:"
   }
 }

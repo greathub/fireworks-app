@@ -11,6 +11,8 @@
     "firstNamePlaceholder": "Schreiben Sie Ihren Namen hierhin",
     "wishesPlaceholder": "Geben Sie hier Ihre saftigen Wünsche ein",
     "send": "Wünsche senden!"
-
+  },
+  "settings": {
+    "setLanguage": "Sprache einstellen:"
   }
 }
