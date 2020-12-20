@@ -1,0 +1,10 @@
+{
+  "tabs": {
+    "home": "Home",
+    "settings": "Settings",
+    "donate": "Donate"
+  },
+  "home": {
+    "name": "Name"
+  }
+}
