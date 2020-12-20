@@ -8,8 +8,7 @@ import { AbstractControl, FormBuilder, FormControl, FormGroup, ValidationErrors,
 })
 export class HomePage implements OnInit {
   public fireworksForm: FormGroup;
-  name: string;
-  wishes: string;
+  emoji = Emojis;
 
   constructor(private formBuilder: FormBuilder) {}
 
@@ -20,4 +19,23 @@ export class HomePage implements OnInit {
     });
   }
 
+  fireEmoji(emoji: string): void {
+    console.log(emoji);
+    this.removeClass(emoji);
+    setTimeout(() => this.addClass(emoji), 450);
+  }
+
+   removeClass(emoji: string) {
+    const element = document.getElementById(emoji);
+    element.classList.remove('gray');
+  }
+
+  addClass(emoji: string) {
+    const element = document.getElementById(emoji);
+    element.classList.add('gray');
+  }
 }
+
+export const Emojis = ['😍', '🤣', '😫', '🤶'];
+
+export const EmojisExtended = ['😍', '🤣', '😫', '🤶', 'lol', 'xd'];

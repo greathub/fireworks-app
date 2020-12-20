@@ -1,1 +1,20 @@
+ion-tab-button {
+  &.tab-selected {
 
+    ion-icon {
+      color: yellow;
+    }
+
+    ion-label {
+      color: yellow;
+    }
+  }
+
+    ion-icon {
+      color: black;
+    }
+
+    ion-label {
+      color: black;
+    }
+}

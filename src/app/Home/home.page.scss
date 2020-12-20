@@ -10,6 +10,12 @@ ion-content {
       font-size: 20px;
       color: var(--primary);
       font-weight: 600;
+
+    &.secondary{
+      font-size: 25px;
+      font-weight: 600;
+      color: var(--black);
+    }
   }
 
   .wishes {
@@ -21,6 +27,11 @@ ion-content {
     display: flex;
     justify-content: space-around;
     margin: 5vw;
+
+    .gray {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
 
     div {
       zoom: 4
