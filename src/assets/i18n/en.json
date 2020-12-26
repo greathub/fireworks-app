@@ -14,5 +14,9 @@
   },
   "settings": {
     "setLanguage": "Set language:"
+  },
+  "donate": {
+    "supportUs": "Support Us with a BTC!",
+    "copy": "Copy"
   }
 }

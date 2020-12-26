@@ -14,5 +14,9 @@
   },
   "settings": {
     "setLanguage": "Ustaw język:"
+  },
+  "donate": {
+    "supportUs": "Wesprzyj nas przesyłając drobną część BTC!",
+    "copy": "Skopiuj"
   }
 }

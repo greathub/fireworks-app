@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      {{ 'tabs.donate' | translate }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="header secondary"> {{ 'donate.supportUs' | translate }}</div>
+  <div class="image">
+    <img src="assets/img/donate-btc.png"/>
+  </div>
+  <div class="global-input secondary crypto">{{ donateBTC }}</div>
+  <ion-button (click)="copyBTCAddress()" class="secondary">{{ 'donate.copy' | translate }}</ion-button>
+</ion-content>
